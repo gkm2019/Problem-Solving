@@ -18,7 +18,7 @@
 
 ## :pushpin: 규칙
 
-1. 일주일에 2문제를 선정 후 **[이슈](https://github.com/SSAFY-Problem-Solving/Problem-Solving/issues)**에 등록하여 해당 문제를 풀이합니다.
+1. 일주일에 2문제를 선정 후 [이슈](https://github.com/SSAFY-Problem-Solving/Problem-Solving/issues)에 등록하여 해당 문제를 풀이합니다.
 2. 코드를 바로 작성하지 못하더라도 **문제 접근 방법**을 생각하고 연습합니다.
 3. 코드는 무조건 전부 지우고 공백에서 풀이합니다. 비슷한 문제를 복사하여 조건만 바꿔서 푸는걸 금지합니다.
 
