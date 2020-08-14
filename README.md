@@ -35,7 +35,7 @@
 9. 폴더의 구조는 `M월 W주차/해당 문제/본인의 폴더/소스코드의` 형태를 가집니다.
 
    ``ex) 8월 2주차/캐슬 디펜스/민경환/Main.java``
-
+   
 10. 문제 풀이 작성 후 `commit` 할 때 해당 문제에 해당하는 이슈의 번호를 작성합니다.
-
-   ``ex) git commit -m "Added problems (#1)"``
+   
+    ``ex) git commit -m "Added problems (#1)"``
