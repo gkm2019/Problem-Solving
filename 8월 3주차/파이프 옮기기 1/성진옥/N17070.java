@@ -6,6 +6,15 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+// 파이프를 옮길 수 있는 모양은
+// 가로 -> 가로, 대각선
+// 세로 -> 세로, 대각선
+// 대각선 -> 가로, 세로, 대각선
+// 가로와 세로의 경우 현재 모양과 같은 모양으로 옮기거나 + 대각선
+// 대각선의 경우 가로, 세로 다 갈수 있고 + 대각선
+// 대각선으로 가려면 옆, 아래, 대각선을 다 확인해야하므로 마지막으로 보내고
+// 가로, 세로는 확인하면서 바로 가기
+
 public class N17070 {
 	static int size;
 	static int map[][];
