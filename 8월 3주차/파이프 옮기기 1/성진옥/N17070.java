@@ -6,6 +6,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+// 파이프의 시작점과 끝점이 있지만 끝점이 목적지에 도착하면 되는것이므로 끝점을 기준으로 탐색을 간다.
+
 // 파이프를 옮길 수 있는 모양은
 // 가로 -> 가로, 대각선
 // 세로 -> 세로, 대각선
