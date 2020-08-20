@@ -8,6 +8,11 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
+// 언니가 이동을 +1 -1 하거나 -1 +1 하면 2일 만에 같은 장소 방문하게 됨 이부분을 체크하여 시간 줄이기
+// 2일은 나머지가 0이거나 1로 구분할 수 있으므로 visit 배열을 2차원으로 생성
+// 동생의 이동장소를 계산하기 위해 업데이트 되는 cnt 변수를 이용하여 확인
+// 동생이 이동한 곳이 언니가 방문한 적이 있거나 언니가 이동한 곳에 동생이 있으면 탐색 종료
+
 public class N17071 {
 	static int N, K;
 	static int dir[][] = {{1,-1}, {1,1}, {2,0}}; // 이동할 수 있는 장소
